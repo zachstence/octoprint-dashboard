@@ -5,5 +5,10 @@ declare namespace App {
 	// interface Locals {}
 	// interface PageData {}
 	// interface Error {}
-	// interface Platform {}
+	// interface Platform {}'
+
+	interface ImportMetaEnv {
+		OCTOPRINT_URL: string
+		OCTOPRINT_API_KEY: string
+	}
 }
